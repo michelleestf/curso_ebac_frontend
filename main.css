@@ -21,7 +21,7 @@ header li {
 }
 
 header li a {
-    color: #f5f;
+    color: rgb(255, 255, 255);
 }
 
 .container {
@@ -58,12 +58,12 @@ section h2,
 }
 
 .articles article a {
-    background-color: blue;
-    color: aliceblue;
+    color: rgb(173, 173, 173);
     padding: 8px;
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 8px;
 }
 
 .articles article a:hover {
@@ -90,4 +90,11 @@ section h2 {
     background-color: #009432;
 }
 
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
 
