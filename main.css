@@ -4,8 +4,24 @@
     padding: 0;
 }
 
+body > header {
+    background-color: #444;
+    padding: 16px 0;
+    color: #f5f5f5;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header li {
     display: inline;
+}
+
+header li a {
+    color: #f5f;
 }
 
 .container {
@@ -24,4 +40,8 @@ header li {
 
 .articles article {
     width: 30%;
+}
+
+section {
+    padding: 16px 0;
 }
