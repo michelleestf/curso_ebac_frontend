@@ -32,6 +32,7 @@ header li a {
 .articles {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .articles article img {
@@ -61,8 +62,32 @@ section h2,
     color: aliceblue;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
 }
 
 .articles article p {
     font-family: Arial, Helvetica, sans-serifS;
 }
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+
