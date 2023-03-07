@@ -45,3 +45,24 @@ header li a {
 section {
     padding: 16px 0;
 }
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serifS;
+}
